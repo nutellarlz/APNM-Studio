@@ -25,9 +25,6 @@ Partial Class MainForm
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
-        Me.TabControl1 = New MdiTabControl.TabControl()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProjectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -43,6 +40,9 @@ Partial Class MainForm
         Me.SaveAllToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveAsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExportProjectTemplateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.TabControl1 = New MdiTabControl.TabControl()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.SuspendLayout()
@@ -64,39 +64,6 @@ Partial Class MainForm
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
         '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 504)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(750, 22)
-        Me.StatusStrip1.TabIndex = 2
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'SplitContainer1
-        '
-        Me.SplitContainer1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.SplitContainer1.Location = New System.Drawing.Point(0, 27)
-        Me.SplitContainer1.Name = "SplitContainer1"
-        Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
-        Me.SplitContainer1.Size = New System.Drawing.Size(221, 474)
-        Me.SplitContainer1.SplitterDistance = 237
-        Me.SplitContainer1.TabIndex = 4
-        '
-        'TabControl1
-        '
-        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TabControl1.Location = New System.Drawing.Point(227, 27)
-        Me.TabControl1.MenuRenderer = Nothing
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.Size = New System.Drawing.Size(523, 474)
-        Me.TabControl1.TabCloseButtonImage = Nothing
-        Me.TabControl1.TabCloseButtonImageDisabled = Nothing
-        Me.TabControl1.TabCloseButtonImageHot = Nothing
-        Me.TabControl1.TabIndex = 5
-        '
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProjectToolStripMenuItem})
@@ -107,7 +74,7 @@ Partial Class MainForm
         'ProjectToolStripMenuItem
         '
         Me.ProjectToolStripMenuItem.Name = "ProjectToolStripMenuItem"
-        Me.ProjectToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ProjectToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.ProjectToolStripMenuItem.Text = "Project"
         '
         'OpenToolStripMenuItem
@@ -120,7 +87,7 @@ Partial Class MainForm
         'ProjectToolStripMenuItem1
         '
         Me.ProjectToolStripMenuItem1.Name = "ProjectToolStripMenuItem1"
-        Me.ProjectToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ProjectToolStripMenuItem1.Size = New System.Drawing.Size(111, 22)
         Me.ProjectToolStripMenuItem1.Text = "Project"
         '
         'ToolStripSeparator1
@@ -138,7 +105,7 @@ Partial Class MainForm
         'ProjectToolStripMenuItem2
         '
         Me.ProjectToolStripMenuItem2.Name = "ProjectToolStripMenuItem2"
-        Me.ProjectToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+        Me.ProjectToolStripMenuItem2.Size = New System.Drawing.Size(126, 22)
         Me.ProjectToolStripMenuItem2.Text = "Reference"
         '
         'ToolStripSeparator2
@@ -186,6 +153,40 @@ Partial Class MainForm
         Me.ExportProjectTemplateToolStripMenuItem.Name = "ExportProjectTemplateToolStripMenuItem"
         Me.ExportProjectTemplateToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
         Me.ExportProjectTemplateToolStripMenuItem.Text = "Export Project Template"
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 504)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(750, 22)
+        Me.StatusStrip1.TabIndex = 2
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'SplitContainer1
+        '
+        Me.SplitContainer1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.SplitContainer1.Location = New System.Drawing.Point(0, 27)
+        Me.SplitContainer1.Name = "SplitContainer1"
+        Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
+        Me.SplitContainer1.Size = New System.Drawing.Size(221, 474)
+        Me.SplitContainer1.SplitterDistance = 237
+        Me.SplitContainer1.TabIndex = 4
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl1.BackLowColor = System.Drawing.SystemColors.Control
+        Me.TabControl1.Location = New System.Drawing.Point(227, 27)
+        Me.TabControl1.MenuRenderer = Nothing
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.Size = New System.Drawing.Size(523, 474)
+        Me.TabControl1.TabCloseButtonImage = Nothing
+        Me.TabControl1.TabCloseButtonImageDisabled = Nothing
+        Me.TabControl1.TabCloseButtonImageHot = Nothing
+        Me.TabControl1.TabIndex = 5
         '
         'MainForm
         '
