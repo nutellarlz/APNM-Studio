@@ -127,4 +127,118 @@
   <data name="web_hi_res_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\web_hi_res_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FastColoredTextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\FastColoredTextBox.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ic_action_dns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_dns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_explore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_explore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_extension" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_extension.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_polymer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_polymer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_settings_ethernet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_settings_ethernet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_settings_overscan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_settings_overscan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_settings_power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_settings_power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_shop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_swap_vert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_swap_vert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_tab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_tab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_view_carousel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_view_carousel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_av_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_av_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_av_pause_circle_fill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_av_pause_circle_fill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_av_play_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_av_play_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_av_play_circle_fill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_av_play_circle_fill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_av_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_av_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_communication_stay_current_portrait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_communication_stay_current_portrait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_content_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_content_clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_content_create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_content_create.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_content_flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_content_flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_content_redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_content_redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_content_undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_content_undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_device_data_usage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_device_data_usage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_device_developer_mode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_device_developer_mode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_device_devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_device_devices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_device_dvr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_device_dvr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_device_screen_rotation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_device_screen_rotation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_editor_format_paint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_editor_format_paint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_editor_insert_emoticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_editor_insert_emoticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_editor_vertical_align_center" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_editor_vertical_align_center.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_hardware_keyboard_control" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_hardware_keyboard_control.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_hardware_watch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_hardware_watch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_image_blur_circular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_image_blur_circular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_image_blur_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_image_blur_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_image_tune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_image_tune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_notification_adb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_notification_adb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MdiTabControl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\MdiTabControl.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
