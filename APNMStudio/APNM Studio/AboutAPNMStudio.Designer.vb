@@ -99,8 +99,8 @@ Partial Class AboutAPNMStudio
         '
         'CheckBox1
         '
+        Me.CheckBox1.AutoCheck = False
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Enabled = False
         Me.CheckBox1.Location = New System.Drawing.Point(12, 290)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(86, 17)
@@ -110,8 +110,8 @@ Partial Class AboutAPNMStudio
         '
         'RadioButton1
         '
+        Me.RadioButton1.AutoCheck = False
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Enabled = False
         Me.RadioButton1.Location = New System.Drawing.Point(6, 18)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(55, 17)
@@ -121,8 +121,8 @@ Partial Class AboutAPNMStudio
         '
         'RadioButton2
         '
+        Me.RadioButton2.AutoCheck = False
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Enabled = False
         Me.RadioButton2.Location = New System.Drawing.Point(67, 18)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(47, 17)

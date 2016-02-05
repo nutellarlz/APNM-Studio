@@ -110,6 +110,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Helper.Designer.vb">
+      <DependentUpon>Helper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AboutAPNMStudio.resx">
       <DependentUpon>AboutAPNMStudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helper.resx">
+      <DependentUpon>Helper.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
