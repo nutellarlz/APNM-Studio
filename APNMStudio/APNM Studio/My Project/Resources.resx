@@ -127,9 +127,6 @@
   <data name="web_hi_res_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\web_hi_res_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FastColoredTextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\FastColoredTextBox.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="ic_action_dns" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_action_dns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -238,7 +235,37 @@
   <data name="ic_notification_adb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_notification_adb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FastColoredTextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastColoredTextBox.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ic_action_description" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_description.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_done" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_done.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_action_done_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_action_done_all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_content_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_content_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_editor_merge_type" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_editor_merge_type.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_file_folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_file_folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_file_folder_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_file_folder_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_file_folder_shared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_file_folder_shared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_hardware_security" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_hardware_security.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MdiTabControl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\MdiTabControl.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\MdiTabControl.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

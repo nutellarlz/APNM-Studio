@@ -54,13 +54,11 @@ Partial Class MainForm
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.TabControl1 = New MdiTabControl.TabControl()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripSplitButton3 = New System.Windows.Forms.ToolStripSplitButton()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripSplitButton4 = New System.Windows.Forms.ToolStripSplitButton()
         Me.ToolStripSplitButton5 = New System.Windows.Forms.ToolStripSplitButton()
@@ -69,10 +67,15 @@ Partial Class MainForm
         Me.ToolStripComboBox2 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripComboBox3 = New System.Windows.Forms.ToolStripComboBox()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
+        Me.ToolStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -268,17 +271,6 @@ Partial Class MainForm
         Me.StatusStrip1.TabIndex = 2
         Me.StatusStrip1.Text = "StatusStrip1"
         '
-        'SplitContainer1
-        '
-        Me.SplitContainer1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.SplitContainer1.Location = New System.Drawing.Point(0, 54)
-        Me.SplitContainer1.Name = "SplitContainer1"
-        Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
-        Me.SplitContainer1.Size = New System.Drawing.Size(221, 421)
-        Me.SplitContainer1.SplitterDistance = 210
-        Me.SplitContainer1.TabIndex = 4
-        '
         'TabControl1
         '
         Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -315,7 +307,7 @@ Partial Class MainForm
         '
         Me.ToolStrip1.BackColor = System.Drawing.SystemColors.Control
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSplitButton3, Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator6, Me.ToolStripSplitButton4, Me.ToolStripSplitButton5, Me.ToolStripSeparator7, Me.ToolStripComboBox1, Me.ToolStripComboBox2, Me.ToolStripButton4})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSplitButton3, Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripSeparator6, Me.ToolStripSplitButton4, Me.ToolStripSplitButton5, Me.ToolStripSeparator7, Me.ToolStripComboBox1, Me.ToolStripComboBox2, Me.ToolStripButton4})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(750, 27)
@@ -334,7 +326,7 @@ Partial Class MainForm
         'ToolStripButton1
         '
         Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = Global.APNM_Studio.My.Resources.Resources.ic_action_dns
+        Me.ToolStripButton1.Image = Global.APNM_Studio.My.Resources.Resources.ic_file_folder
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(24, 24)
@@ -343,20 +335,11 @@ Partial Class MainForm
         'ToolStripButton2
         '
         Me.ToolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton2.Image = Global.APNM_Studio.My.Resources.Resources.ic_image_blur_on
+        Me.ToolStripButton2.Image = Global.APNM_Studio.My.Resources.Resources.ic_content_save
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(24, 24)
         Me.ToolStripButton2.Text = "ToolStripButton2"
-        '
-        'ToolStripButton3
-        '
-        Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton3.Image = Global.APNM_Studio.My.Resources.Resources.ic_image_blur_circular
-        Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(24, 24)
-        Me.ToolStripButton3.Text = "ToolStripButton3"
         '
         'ToolStripSeparator6
         '
@@ -421,15 +404,65 @@ Partial Class MainForm
         Me.TextBox1.TabIndex = 7
         Me.TextBox1.Text = "$"
         '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.Controls.Add(Me.TreeView1)
+        Me.Panel1.Controls.Add(Me.ToolStrip2)
+        Me.Panel1.Location = New System.Drawing.Point(0, 54)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(221, 421)
+        Me.Panel1.TabIndex = 8
+        '
+        'ToolStrip2
+        '
+        Me.ToolStrip2.BackColor = System.Drawing.SystemColors.Control
+        Me.ToolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
+        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox3, Me.ToolStripButton5})
+        Me.ToolStrip2.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip2.Name = "ToolStrip2"
+        Me.ToolStrip2.Size = New System.Drawing.Size(221, 25)
+        Me.ToolStrip2.TabIndex = 0
+        Me.ToolStrip2.Text = "ToolStrip2"
+        '
+        'ToolStripComboBox3
+        '
+        Me.ToolStripComboBox3.AutoCompleteCustomSource.AddRange(New String() {"File System (Default)", "Project", "File Type (Undeveloped)"})
+        Me.ToolStripComboBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ToolStripComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Standard
+        Me.ToolStripComboBox3.Name = "ToolStripComboBox3"
+        Me.ToolStripComboBox3.Size = New System.Drawing.Size(131, 25)
+        Me.ToolStripComboBox3.Text = "File System (Default)"
+        '
+        'ToolStripButton5
+        '
+        Me.ToolStripButton5.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ToolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButton5.Image = Global.APNM_Studio.My.Resources.Resources.ic_file_folder
+        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton5.Name = "ToolStripButton5"
+        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton5.Text = "ToolStripButton5"
+        '
+        'TreeView1
+        '
+        Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TreeView1.Location = New System.Drawing.Point(0, 25)
+        Me.TreeView1.Name = "TreeView1"
+        Me.TreeView1.Size = New System.Drawing.Size(221, 396)
+        Me.TreeView1.TabIndex = 1
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(750, 526)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.TabControl1)
-        Me.Controls.Add(Me.SplitContainer1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -438,10 +471,12 @@ Partial Class MainForm
         Me.Text = "APNM Studio"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer1.ResumeLayout(False)
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.ToolStrip2.ResumeLayout(False)
+        Me.ToolStrip2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -450,7 +485,6 @@ Partial Class MainForm
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents StatusStrip1 As StatusStrip
-    Friend WithEvents SplitContainer1 As SplitContainer
     Friend WithEvents TabControl1 As MdiTabControl.TabControl
     Friend WithEvents NewToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProjectToolStripMenuItem As ToolStripMenuItem
@@ -484,7 +518,6 @@ Partial Class MainForm
     Friend WithEvents ToolStripSplitButton3 As ToolStripSplitButton
     Friend WithEvents ToolStripButton1 As ToolStripButton
     Friend WithEvents ToolStripButton2 As ToolStripButton
-    Friend WithEvents ToolStripButton3 As ToolStripButton
     Friend WithEvents ToolStripSeparator6 As ToolStripSeparator
     Friend WithEvents ToolStripSplitButton4 As ToolStripSplitButton
     Friend WithEvents ToolStripSplitButton5 As ToolStripSplitButton
@@ -493,4 +526,9 @@ Partial Class MainForm
     Friend WithEvents ToolStripComboBox2 As ToolStripComboBox
     Friend WithEvents ToolStripButton4 As ToolStripButton
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents ToolStrip2 As ToolStrip
+    Friend WithEvents ToolStripComboBox3 As ToolStripComboBox
+    Friend WithEvents ToolStripButton5 As ToolStripButton
+    Friend WithEvents TreeView1 As TreeView
 End Class

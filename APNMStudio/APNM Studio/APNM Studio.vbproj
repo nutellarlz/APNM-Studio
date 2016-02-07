@@ -266,6 +266,17 @@
     <None Include="Resources\ic_webpage.png" />
     <None Include="web_hi_res_512.png" />
     <None Include="Resources\web_hi_res_512_NKM_icon.ico" />
+    <None Include="Resources\ic_action_description.png" />
+    <None Include="Resources\ic_action_done.png" />
+    <None Include="Resources\ic_action_done_all.png" />
+    <None Include="Resources\ic_content_save.png" />
+    <None Include="Resources\ic_editor_merge_type.png" />
+    <None Include="Resources\ic_file_folder.png" />
+    <None Include="Resources\ic_file_folder_open.png" />
+    <None Include="Resources\ic_file_folder_shared.png" />
+    <None Include="Resources\ic_hardware_security.png" />
+    <None Include="Resources\MdiTabControl.dll" />
+    <None Include="Resources\FastColoredTextBox.dll" />
     <Content Include="web_hi_res_512_NKM_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
