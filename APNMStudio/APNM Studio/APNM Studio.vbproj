@@ -156,6 +156,12 @@
     <Compile Include="StudioSplash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WelcomeSelector.Designer.vb">
+      <DependentUpon>WelcomeSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AboutAPNMStudio.resx">
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StudioSplash.resx">
       <DependentUpon>StudioSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeSelector.resx">
+      <DependentUpon>WelcomeSelector.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

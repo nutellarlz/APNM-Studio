@@ -68,6 +68,7 @@ Partial Class MainForm
         Me.ToolStripComboBox1 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripComboBox2 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.SuspendLayout()
@@ -76,6 +77,7 @@ Partial Class MainForm
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.SystemColors.Control
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.ViewToolStripMenuItem, Me.ProjectToolStripMenuItem3, Me.BuildToolStripMenuItem, Me.DebugToolStripMenuItem, Me.ToolsToolStripMenuItem, Me.TestToolStripMenuItem, Me.WindowToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
@@ -273,8 +275,8 @@ Partial Class MainForm
         Me.SplitContainer1.Location = New System.Drawing.Point(0, 54)
         Me.SplitContainer1.Name = "SplitContainer1"
         Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
-        Me.SplitContainer1.Size = New System.Drawing.Size(221, 447)
-        Me.SplitContainer1.SplitterDistance = 223
+        Me.SplitContainer1.Size = New System.Drawing.Size(221, 421)
+        Me.SplitContainer1.SplitterDistance = 210
         Me.SplitContainer1.TabIndex = 4
         '
         'TabControl1
@@ -290,7 +292,7 @@ Partial Class MainForm
         Me.TabControl1.Location = New System.Drawing.Point(227, 54)
         Me.TabControl1.MenuRenderer = Nothing
         Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.Size = New System.Drawing.Size(523, 447)
+        Me.TabControl1.Size = New System.Drawing.Size(523, 421)
         Me.TabControl1.TabBackHighColor = System.Drawing.Color.RoyalBlue
         Me.TabControl1.TabBackLowColor = System.Drawing.Color.RoyalBlue
         Me.TabControl1.TabBackLowColorDisabled = System.Drawing.SystemColors.Control
@@ -311,6 +313,7 @@ Partial Class MainForm
         '
         'ToolStrip1
         '
+        Me.ToolStrip1.BackColor = System.Drawing.SystemColors.Control
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripSplitButton3, Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripSeparator6, Me.ToolStripSplitButton4, Me.ToolStripSplitButton5, Me.ToolStripSeparator7, Me.ToolStripComboBox1, Me.ToolStripComboBox2, Me.ToolStripButton4})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
@@ -407,11 +410,23 @@ Partial Class MainForm
         Me.ToolStripButton4.Size = New System.Drawing.Size(55, 24)
         Me.ToolStripButton4.Text = "Start"
         '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox1.Location = New System.Drawing.Point(0, 481)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(750, 20)
+        Me.TextBox1.TabIndex = 7
+        Me.TextBox1.Text = "$"
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(750, 526)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.SplitContainer1)
@@ -477,4 +492,5 @@ Partial Class MainForm
     Friend WithEvents ToolStripComboBox1 As ToolStripComboBox
     Friend WithEvents ToolStripComboBox2 As ToolStripComboBox
     Friend WithEvents ToolStripButton4 As ToolStripButton
+    Friend WithEvents TextBox1 As TextBox
 End Class
