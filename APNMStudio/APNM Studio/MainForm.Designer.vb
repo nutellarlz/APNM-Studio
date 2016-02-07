@@ -68,10 +68,10 @@ Partial Class MainForm
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripComboBox3 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -415,6 +415,14 @@ Partial Class MainForm
         Me.Panel1.Size = New System.Drawing.Size(221, 421)
         Me.Panel1.TabIndex = 8
         '
+        'TreeView1
+        '
+        Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TreeView1.Location = New System.Drawing.Point(0, 27)
+        Me.TreeView1.Name = "TreeView1"
+        Me.TreeView1.Size = New System.Drawing.Size(221, 394)
+        Me.TreeView1.TabIndex = 1
+        '
         'ToolStrip2
         '
         Me.ToolStrip2.BackColor = System.Drawing.SystemColors.Control
@@ -423,7 +431,7 @@ Partial Class MainForm
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox3, Me.ToolStripButton5})
         Me.ToolStrip2.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(221, 25)
+        Me.ToolStrip2.Size = New System.Drawing.Size(221, 27)
         Me.ToolStrip2.TabIndex = 0
         Me.ToolStrip2.Text = "ToolStrip2"
         '
@@ -431,10 +439,11 @@ Partial Class MainForm
         '
         Me.ToolStripComboBox3.AutoCompleteCustomSource.AddRange(New String() {"File System (Default)", "Project", "File Type (Undeveloped)"})
         Me.ToolStripComboBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ToolStripComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ToolStripComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Standard
+        Me.ToolStripComboBox3.Items.AddRange(New Object() {"File System (Default)", "Project", "File Type (Undeveloped)"})
         Me.ToolStripComboBox3.Name = "ToolStripComboBox3"
-        Me.ToolStripComboBox3.Size = New System.Drawing.Size(131, 25)
-        Me.ToolStripComboBox3.Text = "File System (Default)"
+        Me.ToolStripComboBox3.Size = New System.Drawing.Size(131, 27)
         '
         'ToolStripButton5
         '
@@ -443,16 +452,8 @@ Partial Class MainForm
         Me.ToolStripButton5.Image = Global.APNM_Studio.My.Resources.Resources.ic_file_folder
         Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Size = New System.Drawing.Size(23, 22)
+        Me.ToolStripButton5.Size = New System.Drawing.Size(24, 24)
         Me.ToolStripButton5.Text = "ToolStripButton5"
-        '
-        'TreeView1
-        '
-        Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView1.Location = New System.Drawing.Point(0, 25)
-        Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(221, 396)
-        Me.TreeView1.TabIndex = 1
         '
         'MainForm
         '

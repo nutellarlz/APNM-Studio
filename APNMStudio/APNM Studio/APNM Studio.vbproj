@@ -277,6 +277,7 @@
     <None Include="Resources\ic_hardware_security.png" />
     <None Include="Resources\MdiTabControl.dll" />
     <None Include="Resources\FastColoredTextBox.dll" />
+    <None Include="Resources\ic_communication_call_split.png" />
     <Content Include="web_hi_res_512_NKM_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
