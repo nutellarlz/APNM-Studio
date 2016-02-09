@@ -51,7 +51,7 @@ Partial Class StudioSettings
         Me.TabPage1.Text = "General"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'StudioManager
+        'StudioSettings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -59,8 +59,8 @@ Partial Class StudioSettings
         Me.Controls.Add(Me.TabControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "StudioManager"
-        Me.Text = "Studio Manager"
+        Me.Name = "StudioSettings"
+        Me.Text = "Studio Settings"
         Me.TabControl1.ResumeLayout(False)
         Me.ResumeLayout(False)
 

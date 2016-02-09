@@ -42,10 +42,9 @@ Partial Class SDKManager
         Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Support Docs")
         Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Git Extension")
         Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stats Tracker")
-        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Extras", New System.Windows.Forms.TreeNode() {TreeNode16, TreeNode17, TreeNode18, TreeNode19})
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("API Installers")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Extras", New System.Windows.Forms.TreeNode() {TreeNode16, TreeNode17, TreeNode18, TreeNode19, TreeNode20})
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SDKManager))
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -54,25 +53,21 @@ Partial Class SDKManager
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.StatusStrip1.SuspendLayout()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.InstalledToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ObsoleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 427)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(705, 22)
-        Me.StatusStrip1.SizingGrip = False
-        Me.StatusStrip1.TabIndex = 0
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'ToolStripStatusLabel1
-        '
-        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(109, 17)
-        Me.ToolStripStatusLabel1.Text = "Package Load State"
         '
         'TreeView1
         '
@@ -117,10 +112,12 @@ Partial Class SDKManager
         TreeNode18.Text = "Git Extension"
         TreeNode19.Name = "StatsTracker"
         TreeNode19.Text = "Stats Tracker"
-        TreeNode20.Name = "Extras"
-        TreeNode20.Text = "Extras"
-        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode15, TreeNode20})
-        Me.TreeView1.Size = New System.Drawing.Size(681, 304)
+        TreeNode20.Name = "APIInstallers"
+        TreeNode20.Text = "API Installers"
+        TreeNode21.Name = "Extras"
+        TreeNode21.Text = "Extras"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode15, TreeNode21})
+        Me.TreeView1.Size = New System.Drawing.Size(681, 296)
         Me.TreeView1.TabIndex = 1
         '
         'ImageList1
@@ -140,13 +137,15 @@ Partial Class SDKManager
         '
         'PackagesToolStripMenuItem
         '
-        Me.PackagesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowUpdatesNewPackagesToolStripMenuItem})
+        Me.PackagesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ShowUpdatesNewPackagesToolStripMenuItem, Me.InstalledToolStripMenuItem, Me.ObsoleteToolStripMenuItem})
         Me.PackagesToolStripMenuItem.Name = "PackagesToolStripMenuItem"
         Me.PackagesToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
         Me.PackagesToolStripMenuItem.Text = "Packages"
         '
         'ShowUpdatesNewPackagesToolStripMenuItem
         '
+        Me.ShowUpdatesNewPackagesToolStripMenuItem.Checked = True
+        Me.ShowUpdatesNewPackagesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ShowUpdatesNewPackagesToolStripMenuItem.Name = "ShowUpdatesNewPackagesToolStripMenuItem"
         Me.ShowUpdatesNewPackagesToolStripMenuItem.Size = New System.Drawing.Size(230, 22)
         Me.ShowUpdatesNewPackagesToolStripMenuItem.Text = "Show Updates/New Packages"
@@ -174,32 +173,149 @@ Partial Class SDKManager
         Me.TextBox1.Size = New System.Drawing.Size(525, 20)
         Me.TextBox1.TabIndex = 5
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(12, 364)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(37, 13)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Show:"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Checked = True
+        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox1.Location = New System.Drawing.Point(55, 363)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(93, 17)
+        Me.CheckBox1.TabIndex = 7
+        Me.CheckBox1.Text = "Updates/New"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Checked = True
+        Me.CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox2.Location = New System.Drawing.Point(153, 363)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(65, 17)
+        Me.CheckBox2.TabIndex = 8
+        Me.CheckBox2.Text = "Installed"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(55, 386)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(68, 17)
+        Me.CheckBox3.TabIndex = 9
+        Me.CheckBox3.Text = "Obsolete"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'InstalledToolStripMenuItem
+        '
+        Me.InstalledToolStripMenuItem.Checked = True
+        Me.InstalledToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.InstalledToolStripMenuItem.Name = "InstalledToolStripMenuItem"
+        Me.InstalledToolStripMenuItem.Size = New System.Drawing.Size(230, 22)
+        Me.InstalledToolStripMenuItem.Text = "Installed"
+        '
+        'ObsoleteToolStripMenuItem
+        '
+        Me.ObsoleteToolStripMenuItem.Name = "ObsoleteToolStripMenuItem"
+        Me.ObsoleteToolStripMenuItem.Size = New System.Drawing.Size(230, 22)
+        Me.ObsoleteToolStripMenuItem.Text = "Obsolete"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(562, 359)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(131, 23)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "Install {00} Packages"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(562, 388)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(131, 23)
+        Me.Button2.TabIndex = 11
+        Me.Button2.Text = "Delete {00} Packages"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.Button3)
+        Me.Panel1.Controls.Add(Me.ProgressBar1)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Location = New System.Drawing.Point(0, 417)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(705, 32)
+        Me.Panel1.TabIndex = 12
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(12, 10)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(105, 13)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Package Load State"
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(137, 6)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(520, 23)
+        Me.ProgressBar1.TabIndex = 1
+        '
+        'Button3
+        '
+        Me.Button3.BackgroundImage = Global.APNM_Studio.My.Resources.Resources.ic_content_clear
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Location = New System.Drawing.Point(663, 6)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(30, 23)
+        Me.Button3.TabIndex = 2
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'SDKManager
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(705, 449)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.CheckBox3)
+        Me.Controls.Add(Me.CheckBox2)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TreeView1)
-        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "SDKManager"
         Me.Text = "SDK Manager"
-        Me.StatusStrip1.ResumeLayout(False)
-        Me.StatusStrip1.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents StatusStrip1 As StatusStrip
-    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents TreeView1 As TreeView
     Friend WithEvents ImageList1 As ImageList
     Friend WithEvents MenuStrip1 As MenuStrip
@@ -208,4 +324,16 @@ Partial Class SDKManager
     Friend WithEvents ToolsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents InstalledToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ObsoleteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Label2 As Label
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Button3 As Button
+    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents Label3 As Label
 End Class
