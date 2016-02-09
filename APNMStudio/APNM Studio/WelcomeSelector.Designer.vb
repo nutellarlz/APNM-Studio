@@ -295,7 +295,7 @@ Partial Class WelcomeSelector
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.APNM_Studio.My.Resources.Resources.web_hi_res_512
+        Me.PictureBox1.Image = Global.APNM_Studio.My.Resources.Resources.APNM_Studio_Logo
         Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(92, 92)

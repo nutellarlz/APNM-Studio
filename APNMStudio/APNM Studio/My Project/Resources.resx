@@ -124,7 +124,7 @@
   <data name="apnm_icon_web_GW2_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\apnm_icon_web_GW2_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="web_hi_res_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="APNM_Studio_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\web_hi_res_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_action_dns" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -273,5 +273,17 @@
   </data>
   <data name="ic_social_whatshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_social_whatshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueFlame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlueFlame.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Build_IDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Build_IDE.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flame_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flame_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
