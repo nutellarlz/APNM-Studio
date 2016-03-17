@@ -1,0 +1,6 @@
+{
+  "name": "Apnm-studio",
+  "tagline": "Developing Plugins Just Got Easier!",
+  "body": "# APNM-Studio\r\nDeveloping Plugins Just Got Easier!\r\n#![](https://github.com/JTechMe/APNM-Studio/blob/master/APNMStudio/APNM%20Studio/web_hi_res_512.png)\r\n\r\nThis project is dedicated to building an easy-to-use development kit for developing plugins that can be accessed and used by the APNM-Plugin-Framework. This is not intedned for develooping and building the APNM runtimes. Developing the runtimes is done in Visual Studio. For the APNM Framework project please navigate to [the official GitHub project.](https://github.com/JTechMe/APNM-Framework)\r\n\r\nThe APNM Studio is still in general UI development at the moment as development of the build processes and main editor routines are beginning offline and will soon be provided to the GitHub repositories.\r\n\r\n```\r\nCopyright 2015 Josiah Horton\r\n\r\nAPNM Framework\r\n\r\n   This Source Code Form is subject to the terms of the \r\n   General Open Control License, v. 1.0. If a copy of the GOC \r\n   was not distributed with this file, You can obtain one at \r\n   \r\n   https://github.com/JTechMe/GOC-General-Open-Control-Licence-v1.0/\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
