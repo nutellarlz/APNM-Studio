@@ -1,5 +1,6 @@
-# APNM-Studio
+# APNM-Studio [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000?style=flat-square)](https://github.com/nutellarlz/APNM-Studio) [![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg?maxAge=2592000?style=flat-square)](https://github.com/nutellarlz/APNM-Studio) [![GitHub commits](https://img.shields.io/github/commits-since/SubtitleEdit/subtitleedit/3.4.7.svg?maxAge=2592000?style=flat-square)](https://github.com/nutellarlz/APNM-Studio) [![](https://img.shields.io/github/issues-raw/badges/shields.svg?maxAge=2592000?style=flat-square)](https://github.com/nutellarlz/APNM-Studio) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000?style=flat-square)](https://github.com/nutellarlz/APNM-Studio)
 Developing Plugins Just Got Easier!
+
 <img src="https://github.com/JTechMe/APNM-Studio/blob/master/APNMStudio/APNM%20Studio/web_hi_res_512.png" height="100"/>
 
 This project is dedicated to building an easy-to-use development kit for developing plugins that can be accessed and used by the APNM-Plugin-Framework. This is not intedned for develooping and building the APNM runtimes. Developing the runtimes is done in Visual Studio. For the APNM Framework project please navigate to [the official GitHub project.](https://github.com/JTechMe/APNM-Framework)
