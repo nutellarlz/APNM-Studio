@@ -1,1 +1,27 @@
 C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\bin\Debug\APNM Studio.exe.config
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.vbprojResolveAssemblyReference.cache
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.AboutAPNMStudio.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.Helper.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.Resources.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.SDKManager.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.EditFileForm.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.StudioSplash.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.WelcomeSelector.resources
+C:\Users\PopTart\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.vbproj.GenerateResource.Cache
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\bin\Debug\APNM Studio.exe.config
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\bin\Debug\APNM Studio.exe
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\bin\Debug\APNM Studio.pdb
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\bin\Debug\APNM Studio.xml
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.vbprojResolveAssemblyReference.cache
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.AboutAPNMStudio.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.Helper.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.Resources.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.SDKManager.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.EditFileForm.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.StudioSplash.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.WelcomeSelector.resources
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.vbproj.GenerateResource.Cache
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.exe
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.xml
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM Studio.pdb
+C:\Users\joeho\Documents\Visual Studio 2015\Projects\APNM-Studio\APNMStudio\APNM Studio\obj\Debug\APNM_Studio.MainForm.resources

@@ -49,6 +49,9 @@
   <PropertyGroup>
     <ApplicationIcon>web_hi_res_512_NKM_icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FastColoredTextBox, Version=2.9.15.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -116,11 +119,10 @@
     <Compile Include="Helper.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="MainForm.Designer.vb">
       <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -142,12 +144,6 @@
       <DependentUpon>SDKManager.vb</DependentUpon>
     </Compile>
     <Compile Include="SDKManager.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudioSettings.Designer.vb">
-      <DependentUpon>StudioSettings.vb</DependentUpon>
-    </Compile>
-    <Compile Include="StudioSettings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EditFileForm.Designer.vb">
@@ -188,9 +184,6 @@
     <EmbeddedResource Include="SDKManager.resx">
       <DependentUpon>SDKManager.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudioSettings.resx">
-      <DependentUpon>StudioSettings.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EditFileForm.resx">
       <DependentUpon>EditFileForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +195,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
